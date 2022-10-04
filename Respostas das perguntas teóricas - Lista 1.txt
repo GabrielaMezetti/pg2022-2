@@ -1,0 +1,26 @@
+Respostas das perguntas teóricas - Lista 1
+
+1- GLSL é uma linguagem de programação para desenvolver shaders
+no pipeline OpenGL. Existem dois tipos de shaders que são necessários.
+Um deles é o Vertex Shader, que trata cada vértice separadamente e descreve onde 
+cada posição desse vértice estará na tela. O outro é o Fragment Shader, que faz o 
+processo de cada fragmento separadamente e ainda descreve o tratamento dos pixels 
+entre os vértices.
+
+2- As primitivas gráficas são, como o nome diz, os elementos mais básicos que podem 
+ser criados na programação gráfica. 
+Podemos usar de exemplo pontos que, quando conectados, formam polígonos para então 
+formar uma malha. Na OpenGL, os vértices são armazenados pelo buffer (VBO) - um array 
+responsável por enviar os dados dos vértices para a GPU, onde os dados que por sua vez
+são alocados em sua própria memória. 
+
+3- VBO é um Buffer que guarda um array de dados e manda informação dos vértices 
+para a GPU. 
+VAO faz a conexão dos atributos de um vértice, responsável pela posição, cor ou 
+normal. Ele descreve a forma como essas características dos vértices são 
+armazenados em um VBO. 
+EBO é um Buffer que permite armazenar índices que a OpenGL usa para decidir 
+quais vértices delinear.
+
+
+
